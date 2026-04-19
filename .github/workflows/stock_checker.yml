@@ -1,0 +1,42 @@
+name: Stock Alert Bot
+
+on:
+  schedule:
+    # Run every hour during market-adjacent hours (UTC)
+    # US market: 9:30-16:00 ET = 13:30-20:00 UTC
+    # Crypto trades 24/7, so we run every hour
+    - cron: "0 * * * *"
+  workflow_dispatch: # Allow manual runs
+
+permissions:
+  contents: write  # Needed to commit subscriber/alert state back to repo
+
+jobs:
+  check-stocks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python bot.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "Stock Alert Bot"
+          git config user.email "bot@github-actions"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update bot state [skip ci]"
+          git push
