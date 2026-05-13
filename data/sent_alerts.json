@@ -2,7 +2,9 @@
   "AAPL": [],
   "AMZN": [],
   "GOOGL": [],
-  "TSLA": [],
+  "TSLA": [
+    10
+  ],
   "META": [
     10,
     20
