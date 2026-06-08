@@ -3,10 +3,11 @@
   "AMZN": [
     10
   ],
-  "GOOGL": [],
+  "GOOGL": [
+    10
+  ],
   "TSLA": [
-    10,
-    20
+    10
   ],
   "META": [
     10,
@@ -43,5 +44,5 @@
     40,
     50
   ],
-  "_market_status": "selloff"
+  "_market_status": "healthy"
 }
