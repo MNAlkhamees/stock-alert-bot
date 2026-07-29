@@ -9,7 +9,8 @@
   "TSLA": [
     10,
     20,
-    30
+    30,
+    40
   ],
   "META": [
     10,
@@ -32,7 +33,9 @@
     10
   ],
   "^GSPC": [],
-  "^IXIC": [],
+  "^IXIC": [
+    10
+  ],
   "^DJI": [],
   "BTC-USD": [
     10,
@@ -47,5 +50,5 @@
     40,
     50
   ],
-  "_market_status": "healthy"
+  "_market_status": "pullback"
 }
