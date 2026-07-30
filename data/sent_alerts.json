@@ -9,16 +9,15 @@
   "TSLA": [
     10,
     20,
-    30,
-    40
+    30
   ],
   "META": [
     10,
-    20
+    20,
+    30
   ],
   "MSFT": [
-    10,
-    20
+    10
   ],
   "NVDA": [
     10
@@ -33,9 +32,7 @@
     10
   ],
   "^GSPC": [],
-  "^IXIC": [
-    10
-  ],
+  "^IXIC": [],
   "^DJI": [],
   "BTC-USD": [
     10,
@@ -50,5 +47,5 @@
     40,
     50
   ],
-  "_market_status": "pullback"
+  "_market_status": "healthy"
 }
