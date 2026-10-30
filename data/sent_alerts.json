@@ -26,9 +26,7 @@
     40,
     50
   ],
-  "WMT": [
-    10
-  ],
+  "WMT": [],
   "^GSPC": [],
   "^IXIC": [],
   "^DJI": [],
@@ -44,5 +42,5 @@
     40,
     50
   ],
-  "_market_status": "healthy"
+  "_market_status": "pullback"
 }
