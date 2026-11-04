@@ -1,20 +1,16 @@
 {
   "AAPL": [],
-  "AMZN": [
-    10
-  ],
+  "AMZN": [],
   "GOOGL": [
     10,
-    20,
-    30
+    20
   ],
   "TSLA": [
     10,
     20
   ],
   "META": [
-    10,
-    20
+    10
   ],
   "MSFT": [],
   "NVDA": [
@@ -43,5 +39,5 @@
     40,
     50
   ],
-  "_market_status": "pullback"
+  "_market_status": "healthy"
 }
