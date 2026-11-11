@@ -15,8 +15,7 @@
   "MSFT": [],
   "NVDA": [
     10,
-    20,
-    30
+    20
   ],
   "NFLX": [
     10,
@@ -42,5 +41,5 @@
     40,
     50
   ],
-  "_market_status": "pullback"
+  "_market_status": "healthy"
 }
