@@ -1,6 +1,8 @@
 {
   "AAPL": [],
-  "AMZN": [],
+  "AMZN": [
+    10
+  ],
   "GOOGL": [
     10,
     20,
@@ -14,7 +16,9 @@
     10,
     20
   ],
-  "MSFT": [],
+  "MSFT": [
+    10
+  ],
   "NVDA": [
     10,
     20,
@@ -32,12 +36,15 @@
   "^IXIC": [
     10
   ],
-  "^DJI": [],
+  "^DJI": [
+    10
+  ],
   "BTC-USD": [
     10,
     20,
     30,
-    40
+    40,
+    50
   ],
   "ETH-USD": [
     10,
@@ -46,5 +53,5 @@
     40,
     50
   ],
-  "_market_status": "pullback"
+  "_market_status": "correction"
 }
